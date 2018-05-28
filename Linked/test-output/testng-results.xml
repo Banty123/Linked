@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="8" ignored="0" total="8" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Fail]]>
+    </line>
+    <line>
+      <![CDATA[Test Fail]]>
+    </line>
+    <line>
+      <![CDATA[Test Fail]]>
+    </line>
+    <line>
+      <![CDATA[Test Fail]]>
+    </line>
+    <line>
+      <![CDATA[Test Fail]]>
+    </line>
+    <line>
+      <![CDATA[Test Fail]]>
+    </line>
+    <line>
+      <![CDATA[Test Fail]]>
+    </line>
+    <line>
+      <![CDATA[Test Fail]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="218645" started-at="2018-05-28T11:48:53Z" finished-at="2018-05-28T11:52:32Z">
+    <groups>
+      <group name="regression">
+        <method signature="Test1$Test2.testValidUnInvalidPw()[pri:2, instance:testScript.Test1$Test2@e720b71]" name="testValidUnInvalidPw" class="testScript.Test1$Test2"/>
+        <method signature="Test1$Test3.testInValidUnvalidPw()[pri:3, instance:testScript.Test1$Test3@1b26f7b2]" name="testInValidUnvalidPw" class="testScript.Test1$Test3"/>
+        <method signature="Test1$Test4.testValidUnInvalidPw()[pri:4, instance:testScript.Test1$Test4@491cc5c9]" name="testValidUnInvalidPw" class="testScript.Test1$Test4"/>
+        <method signature="Test1$Test5.testInValidUnInvalidPw()[pri:5, instance:testScript.Test1$Test5@74ad1f1f]" name="testInValidUnInvalidPw" class="testScript.Test1$Test5"/>
+        <method signature="Test1$Test6.testValidUnEmptyPw()[pri:6, instance:testScript.Test1$Test6@6a1aab78]" name="testValidUnEmptyPw" class="testScript.Test1$Test6"/>
+        <method signature="Test1$Test7.EmptyUnInvalidPw()[pri:7, instance:testScript.Test1$Test7@462d5aee]" name="EmptyUnInvalidPw" class="testScript.Test1$Test7"/>
+        <method signature="Test1$Test8.testEmptyUnEmptyPw()[pri:8, instance:testScript.Test1$Test8@69b0fd6f]" name="testEmptyUnEmptyPw" class="testScript.Test1$Test8"/>
+        <method signature="Test1.ValidLoginLogout()[pri:9, instance:testScript.Test1@11758f2a]" name="ValidLoginLogout" class="testScript.Test1"/>
+      </group> <!-- regression -->
+      <group name="Smoke">
+        <method signature="Test1.ValidLoginLogout()[pri:9, instance:testScript.Test1@11758f2a]" name="ValidLoginLogout" class="testScript.Test1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="218645" started-at="2018-05-28T11:48:53Z" finished-at="2018-05-28T11:52:32Z">
+      <class name="testScript.Test1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1@11758f2a]" name="launchBrowser" is-config="true" duration-ms="3944" started-at="2018-05-28T11:51:57Z" finished-at="2018-05-28T11:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="ValidLoginLogout()[pri:9, instance:testScript.Test1@11758f2a]" name="ValidLoginLogout" duration-ms="27673" started-at="2018-05-28T11:52:01Z" finished-at="2018-05-28T11:52:29Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testScript.Test1.ValidLoginLogout(Test1.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidLoginLogout -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:testScript.Test1@11758f2a]" name="quite" is-config="true" duration-ms="2615" started-at="2018-05-28T11:52:29Z" finished-at="2018-05-28T11:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- testScript.Test1 -->
+      <class name="testScript.Test1$Test8">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1$Test8@69b0fd6f]" name="launchBrowser" is-config="true" duration-ms="4048" started-at="2018-05-28T11:51:45Z" finished-at="2018-05-28T11:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="testEmptyUnEmptyPw()[pri:8, instance:testScript.Test1$Test8@69b0fd6f]" name="testEmptyUnEmptyPw" duration-ms="6601" started-at="2018-05-28T11:51:49Z" finished-at="2018-05-28T11:51:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testScript.Test1$Test8.testEmptyUnEmptyPw(Test1.java:168)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEmptyUnEmptyPw -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:testScript.Test1$Test8@69b0fd6f]" name="quite" is-config="true" duration-ms="1930" started-at="2018-05-28T11:51:55Z" finished-at="2018-05-28T11:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- testScript.Test1$Test8 -->
+      <class name="testScript.Test1$Test6">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1$Test6@6a1aab78]" name="launchBrowser" is-config="true" duration-ms="3948" started-at="2018-05-28T11:50:39Z" finished-at="2018-05-28T11:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="testValidUnEmptyPw()[pri:6, instance:testScript.Test1$Test6@6a1aab78]" name="testValidUnEmptyPw" duration-ms="15879" started-at="2018-05-28T11:50:43Z" finished-at="2018-05-28T11:50:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testScript.Test1$Test6.testValidUnEmptyPw(Test1.java:130)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidUnEmptyPw -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:testScript.Test1$Test6@6a1aab78]" name="quite" is-config="true" duration-ms="2622" started-at="2018-05-28T11:50:58Z" finished-at="2018-05-28T11:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- testScript.Test1$Test6 -->
+      <class name="testScript.Test1$Test7">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1$Test7@462d5aee]" name="launchBrowser" is-config="true" duration-ms="4212" started-at="2018-05-28T11:51:01Z" finished-at="2018-05-28T11:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="EmptyUnInvalidPw()[pri:7, instance:testScript.Test1$Test7@462d5aee]" name="EmptyUnInvalidPw" duration-ms="36858" started-at="2018-05-28T11:51:05Z" finished-at="2018-05-28T11:51:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testScript.Test1$Test7.EmptyUnInvalidPw(Test1.java:149)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmptyUnInvalidPw -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:testScript.Test1$Test7@462d5aee]" name="quite" is-config="true" duration-ms="2713" started-at="2018-05-28T11:51:42Z" finished-at="2018-05-28T11:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- testScript.Test1$Test7 -->
+      <class name="testScript.Test1$Test4">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1$Test4@491cc5c9]" name="launchBrowser" is-config="true" duration-ms="8542" started-at="2018-05-28T11:50:15Z" finished-at="2018-05-28T11:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="testValidUnInvalidPw()[pri:4, instance:testScript.Test1$Test4@491cc5c9]" name="testValidUnInvalidPw" duration-ms="4024" started-at="2018-05-28T11:50:24Z" finished-at="2018-05-28T11:50:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testScript.Test1$Test4.testValidUnInvalidPw(Test1.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidUnInvalidPw -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:testScript.Test1$Test4@491cc5c9]" name="quite" is-config="true" duration-ms="1832" started-at="2018-05-28T11:50:28Z" finished-at="2018-05-28T11:50:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- testScript.Test1$Test4 -->
+      <class name="testScript.Test1$Test5">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1$Test5@74ad1f1f]" name="launchBrowser" is-config="true" duration-ms="4037" started-at="2018-05-28T11:50:30Z" finished-at="2018-05-28T11:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="testInValidUnInvalidPw()[pri:5, instance:testScript.Test1$Test5@74ad1f1f]" name="testInValidUnInvalidPw" duration-ms="2197" started-at="2018-05-28T11:50:34Z" finished-at="2018-05-28T11:50:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testScript.Test1$Test5.testInValidUnInvalidPw(Test1.java:111)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInValidUnInvalidPw -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:testScript.Test1$Test5@74ad1f1f]" name="quite" is-config="true" duration-ms="2629" started-at="2018-05-28T11:50:36Z" finished-at="2018-05-28T11:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- testScript.Test1$Test5 -->
+      <class name="testScript.Test1$Test2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1$Test2@e720b71]" name="launchBrowser" is-config="true" duration-ms="13938" started-at="2018-05-28T11:48:53Z" finished-at="2018-05-28T11:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="testValidUnInvalidPw()[pri:2, instance:testScript.Test1$Test2@e720b71]" name="testValidUnInvalidPw" duration-ms="34523" started-at="2018-05-28T11:49:07Z" finished-at="2018-05-28T11:49:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testScript.Test1$Test2.testValidUnInvalidPw(Test1.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidUnInvalidPw -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:testScript.Test1$Test2@e720b71]" name="quite" is-config="true" duration-ms="3392" started-at="2018-05-28T11:49:42Z" finished-at="2018-05-28T11:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- testScript.Test1$Test2 -->
+      <class name="testScript.Test1$Test3">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1$Test3@1b26f7b2]" name="launchBrowser" is-config="true" duration-ms="4116" started-at="2018-05-28T11:49:45Z" finished-at="2018-05-28T11:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="testInValidUnvalidPw()[pri:3, instance:testScript.Test1$Test3@1b26f7b2]" name="testInValidUnvalidPw" duration-ms="23547" started-at="2018-05-28T11:49:49Z" finished-at="2018-05-28T11:50:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testScript.Test1$Test3.testInValidUnvalidPw(Test1.java:71)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInValidUnvalidPw -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:testScript.Test1$Test3@1b26f7b2]" name="quite" is-config="true" duration-ms="2691" started-at="2018-05-28T11:50:13Z" finished-at="2018-05-28T11:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- testScript.Test1$Test3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
