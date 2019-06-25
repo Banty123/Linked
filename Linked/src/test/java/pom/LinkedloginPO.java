@@ -11,9 +11,9 @@ public class LinkedloginPO extends BasePage {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-	
+	@findby
 		 
-		 @FindBy(xpath="//input[@name='session_key']")
+		       @FindBy(xpath="//input[@name='session_key']")
 			private WebElement unTxtBx;
 			public WebElement unTxtBx() {
 				return unTxtBx;
